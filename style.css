@@ -1,13 +1,15 @@
 body{
     margin:0 auto;
-    background: radial-gradient(#99a3ff 20%,#503fec 60%);
+    /* background: radial-gradient(#99a3ff 20%,#503fec 60%); */
+    background-color: #000;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size:cover;
 }
 h1{
-    color:rgb(184, 8, 8);
+    /* color:rgb(184, 8, 8); */
+    color:#fff;
     margin-top:40px;
 }
 .flex-box{
@@ -17,7 +19,8 @@ h1{
     flex-direction:row;
     width:400px;
     height:400px;
-    margin:20px auto 40px;
+    /* margin:20px auto 40px; */
+    margin:100px auto 40px;
 }
 .heart{
     display:flex;
